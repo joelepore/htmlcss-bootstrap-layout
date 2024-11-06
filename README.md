@@ -10,5 +10,5 @@ E’ possibile centralizzare il layout delle colonne di qualche riga utilizzando
 ## Svolgimento
 1. Analizzo gli screenshot
 2. Importo Bootstrap via CDN 
-3. Creo la macrostruttura con Bootstrap
+3. Creo la macrostruttura con Bootstrap in approccio mobile first
 4. Inserisco i contenuti nel markup
