@@ -10,17 +10,25 @@
 </head>
 
 <body>
-  <header class="text-center pt-5 pb-4">
+  <header class="text-center pt-5">
     <h1>Bootstrap 5 Responsive Grid</h1>
     <p class="fs-5 fw-light">Layout a griglia con diversi breakpoint (sm, md, lg).</p>
   </header>
 
-  <main>
+  <main class="pt-1 pb-5">
     <section class="my-4">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-4 text-bg-light">1</div>
-          <div class="col-12 col-md-6 col-lg-8 text-bg-secondary">2</div>
+          <div class="col-12 col-md-6 col-lg-4 text-bg-light p-4">
+            <h2>Colonna 1</h2>
+            <p>Larghezza intera su dispositivi piccoli, met&agrave; larghezza su dispositivi medi e un terzo du
+              dispositivi grandi.</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-8 text-bg-secondary p-4">
+            <h2>Colonna 2</h2>
+            <p>Larghezza intera su dispositivi piccoli, met&agrave; larghezza su dispositivi medi e due terzi su
+              dispositivi grandi.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -28,9 +36,18 @@
     <section class="my-4">
       <div class="container">
         <div class="row">
-          <div class="col-6 col-md-4 text-bg-primary">1</div>
-          <div class="col-6 col-md-4 text-bg-success">2</div>
-          <div class="col-12 col-md-4 text-bg-danger">3</div>
+          <div class="col-6 col-md-4 text-bg-primary p-4">
+            <h2>Colonna 1</h2>
+            <p>Met&agrave; larghezza su dispositivi piccoli e un terzo su dispositivi medi e pi&ugrave; grandi.</p>
+          </div>
+          <div class="col-6 col-md-4 text-bg-success p-4">
+            <h2>Colonna 2</h2>
+            <p>Met&agrave; larghezza su dispositivi piccoli e un terzo su dispositivi medi e pi&ugrave; grandi.</p>
+          </div>
+          <div class="col-12 col-md-4 text-bg-danger p-4">
+            <h2>Colonna 3</h2>
+            <p>Larghezza intera su dispositivi piccoli (col-12) e un terzo su dispositivi medi e pi&ugrave; grandi.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -38,10 +55,22 @@
     <section>
       <div class="container">
         <div class="row row-cols-2 row-cols-md-4">
-          <div class="col text-bg-info">1</div>
-          <div class="col text-bg-warning">2</div>
-          <div class="col text-bg-dark">3</div>
-          <div class="col text-bg-light">4</div>
+          <div class="col text-white bg-info p-4">
+            <h2>Colonna 1</h2>
+            <p>Met&agrave; larghezza su dispositivi piccoli e un quarto su dispositivi medi e pi&ugrave; grandi.</p>
+          </div>
+          <div class="col text-white bg-warning p-4">
+            <h2>Colonna 2</h2>
+            <p>Met&agrave; larghezza su dispositivi piccoli e un quarto su dispositivi medi e pi&ugrave; grandi.</p>
+          </div>
+          <div class="col text-bg-dark p-4">
+            <h2>Colonna 3</h2>
+            <p>Met&agrave; larghezza su dispositivi piccoli e un quarto su dispositivi medi e pi&ugrave; grandi.</p>
+          </div>
+          <div class="col text-bg-light p-4">
+            <h2>Colonna 4</h2>
+            <p>Met&agrave; larghezza su dispositivi piccoli e un quarto su dispositivi medi e pi&ugrave; grandi.</p>
+          </div>
         </div>
       </div>
     </section>
